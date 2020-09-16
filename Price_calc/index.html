@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    </head>
+    <body>
+        <div class="textinner">
+            <p><b>ТОВАР:  </b><input type="text" id="tovar"></p>
+            <p><b>ЦЕНА:  </b><input type="text" id="n1"></p>
+            <p><b>ШТУК:  </b><input type="text" id="n2"></p>
+    </div>
+    <div class="clicker">    
+        <button onclick="enter();">Добавить в список</button>
+        <button  id="la">Рассчитать всё</button>
+    </div>
+    <b></b>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">ТОВАР</th>
+                <th scope="col">ШТУК</th>
+                <th scope="col">ЦЕНА</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <br></br>
+        <p>Общая цена:  </p><input class="summa" type="text" id="sum">
+
+        <script src="main.js"></script>
+    </body>
+</html>
