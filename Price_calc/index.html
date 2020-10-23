@@ -9,14 +9,14 @@
     <body>
         <div class="textinner">
             <p><b>ТОВАР:  </b><input type="text" id="tovar"></p>
-            <p><b>ЦЕНА:  </b><input type="text" id="n1"></p>
-            <p><b>ШТУК:  </b><input type="text" id="n2"></p>
+            <p><b>ЦЕНА:  </b><input type="number" id="n1"></p>
+            <p><b>ШТУК:  </b><input type="number" id="n2" value="1"></p>
     </div>
     <div class="clicker">    
         <button onclick="enter();">Добавить в список</button>
         <button  id="la">Рассчитать всё</button>
     </div>
-    <b></b>
+    <div class="weit"></div>
         <table class="table">
             <thead>
             <tr>
@@ -27,8 +27,11 @@
             </thead>
             <tbody></tbody>
         </table>
-        <br></br>
-        <p>Общая цена:  </p><input class="summa" type="text" id="sum">
+        <div class="weit"></div>
+        <div class="clicker1">
+            <button onclick="del();">Удалить</button>
+        </div>
+        <p>Общая цена: </p><input class="summa" type="text" id="sum">
 
         <script src="main.js"></script>
     </body>
